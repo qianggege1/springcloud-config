@@ -5,7 +5,6 @@ config:
       intervalMinutes: 1
       maxRequestCount: 6
   mail:
-    to: m18821672656@163.com
     templates:
       title: 注册验证码
       content: 您好，本次登录的验证码为：%s，将在10分钟之后过期
