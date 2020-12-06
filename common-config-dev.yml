@@ -1,9 +1,9 @@
 config:
   request:
     iplimit:
-      apis: /api/user/register/
+      apis: /api/user/login/
       intervalMinutes: 1
-      maxRequestCount: 6
+      maxRequestCount: 3
   mail:
     templates:
       title: 注册验证码
